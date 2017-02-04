@@ -1,0 +1,22 @@
+h1 {
+	background-color: #4aaaa5;
+	color: #FFFFFF;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+h3 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	background-color: #ffffff
+}
+
+#submit {
+	background-color: #4aaaa5;
+	color: #FFFFFF;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
