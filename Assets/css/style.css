@@ -4,6 +4,7 @@ h1 {
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
 	width: 450px;
 	padding: 25px;
+	margin: 0px;
 }
 
 nav {
@@ -85,8 +86,16 @@ p {
 
 #background {
 	position: relative;
+	height: 1000px;
 	width: 100%;
 	z-index: 1;
+	border-top-color: #777777;
+	border-top-style: solid;
+	border-top-width: 2px;
+	margin-bottom: 0px;
+	border-bottom-color: #777777;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
 }
 
 footer {
@@ -97,6 +106,7 @@ footer {
 	border-top-width: 12px;
 	padding: 50px;
 	text-align: center;
+	margin-top: 0px;
 }
 
 #me-pic {
@@ -115,4 +125,13 @@ footer {
 	height: 350px;
 	width: 600px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.port-pics {
+	height: 180px;
+	width: 250px;
+}
+.sm-links {
+	height: 40px;
+	width: 40px;
 }
