@@ -2,6 +2,24 @@ h1 {
 	background-color: #4aaaa5;
 	color: #FFFFFF;
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	width: 450px;
+	padding: 25px;
+}
+
+nav {
+	position: fixed;
+	top: 40px;
+	right: 80px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	padding: 10px;
+	font-size: 18px;
+	align-self: center;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 h3 {
@@ -18,5 +36,83 @@ p {
 #submit {
 	background-color: #4aaaa5;
 	color: #FFFFFF;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding: 20px;
+	font-size: 14px;
+}
+
+#portfolio-links {
+	z-index: 10;
+	float: left;
+	position: absolute;
+	width: 650px;
+	background-color: #FFFFFF;
+	margin: 75px;
+	padding: 20px
+}
+
+#bio {
+	float: left;
+	z-index: 10;
+	position: absolute;
+	width: 650px;
+	background-color: #FFFFFF;
+	margin: 75px;
+	padding: 20px;
+}
+
+#contact-form {
+	float: left;
+	z-index: 10;
+	position: absolute;
+	background-color: #FFFFFF;
+	width: 650px;
+	padding: 20px;
+	margin: 75px;
+}
+
+#contact-info {
+	z-index: 10;
+	position: absolute;
+	left: 800px;
+	background-color: #FFFFFF;
+	width: 270px;
+	margin: 75px;
+	padding: 15px;
+	align-self: center;
+}
+
+
+#background {
+	position: relative;
+	width: 100%;
+	z-index: 1;
+}
+
+footer {
+	color: #777777;
+	border-top-style: solid;
+	border-color: #4aaaa5;
+	background-color: #666666;
+	border-top-width: 12px;
+	padding: 50px;
+	text-align: center;
+}
+
+#me-pic {
+	width: 280px;
+	height: 300px;
+	float: left;
+	margin-right: 5px;
+}
+
+#form {
+	width: 600px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#message {
+	height: 350px;
+	width: 600px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
