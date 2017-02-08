@@ -142,25 +142,26 @@ footer {
 	width: 250px;
 	position: relative;
 	margin-right: 20px;
-	margin-bottom: 50px;
+	margin-top: 50px;
 }
 .sm-links {
-	height: 40px;
-	width: 40px;
+	height: 50px;
+	width: 50px;
+	margin: 5px;
 }
 
 #hangman {
 	float:left;
 	position: absolute;
 	z-index: 5;
-	top: 180px;
+	top: 230px;
 }
 
 #RPG {
 	float: right;
 	position: absolute;
 	z-index: 5;
-	top: 180px;
+	top: 230px;
 	left: 294px;
 }
 
@@ -168,14 +169,14 @@ footer {
 	float: left;
 	position: absolute;
 	z-index: 5;
-	top: 410px;
+	top: 460px;
 }
 
 #info-widget {
 	float: right;
 	position: absolute;
 	z-index: 5;
-	top: 410px;
+	top: 460px;
 	left: 294px;
 }
 
@@ -183,5 +184,5 @@ footer {
 	float: left;
 	position: absolute;
 	z-index: 5;
-	top: 650px;
+	top: 700px;
 }
