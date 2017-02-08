@@ -83,6 +83,16 @@ p {
 	align-self: center;
 }
 
+h4 {
+	background-color: #4aaaa5;
+	color: #FFFFFF;
+	width:250px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
 
 #background {
 	position: relative;
@@ -130,8 +140,48 @@ footer {
 .port-pics {
 	height: 180px;
 	width: 250px;
+	position: relative;
+	margin-right: 20px;
+	margin-bottom: 50px;
 }
 .sm-links {
 	height: 40px;
 	width: 40px;
+}
+
+#hangman {
+	float:left;
+	position: absolute;
+	z-index: 5;
+	top: 180px;
+}
+
+#RPG {
+	float: right;
+	position: absolute;
+	z-index: 5;
+	top: 180px;
+	left: 294px;
+}
+
+#trivia {
+	float: left;
+	position: absolute;
+	z-index: 5;
+	top: 410px;
+}
+
+#info-widget {
+	float: right;
+	position: absolute;
+	z-index: 5;
+	top: 410px;
+	left: 294px;
+}
+
+#rock-paper {
+	float: left;
+	position: absolute;
+	z-index: 5;
+	top: 650px;
 }
